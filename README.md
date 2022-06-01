@@ -11,16 +11,16 @@ Je vhodné si pomoci zasíláním "instrukcí" prostřednictvím aplikace [**Mbi
 
 ## Požadavky na schopnosti vozidla
 
-- autonomní jízda po bílé / černé čáře bez nutných zásahů do řízení
-- překonání křižovatek ve tvaru písmene **+**
-- schopnost na "vyžádání" odbočit na křižovatce vlevo nebo vpravo
-- možnost obrátit se do protisměru
+- [x] autonomní jízda po bílé / černé čáře bez nutných zásahů do řízení
+- [ ] překonání křižovatek ve tvaru písmene **+**
+- [ ] schopnost na "vyžádání" odbočit na křižovatce vlevo nebo vpravo
+- [ ] možnost obrátit se do protisměru
 
 ### Volitelně (bonusové hodnocení)
 
-- schopnost najet do křižovatky jiného tvaru než **+**, typicky **Y**
-- čára končící u mechanické překážky = otočení se do protisměru
-- čára končící mechanickou překážkou = pokus o objetí a pokračování v autonomní jízdě
+- [ ] schopnost najet do křižovatky jiného tvaru než **+**, typicky **Y**
+- [ ] čára končící u mechanické překážky = otočení se do protisměru
+- [ ] čára končící mechanickou překážkou = pokus o objetí a pokračování v autonomní jízdě
 (překážka nebude nikdy větší jak 20 × 20 × 20 cm)
 
 ## Omezení v hodnocení práce

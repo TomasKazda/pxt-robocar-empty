@@ -1,29 +1,31 @@
+# RoboCar project P1A 2021
 
-> Open this page at [https://tomaskazda.github.io/pxt-robocar-empty/](https://tomaskazda.github.io/pxt-robocar-empty/)
+Robotické auto by mělo zvládat "semi-autonomní" řízení. Po *bílé* nebo *černé* čáře se bude pohybovat převážně samostatně, ideálně bez nutnosti zásahů do řízení.
 
-## Use as Extension
+Je vhodné si pomoci zasíláním "instrukcí" prostřednictvím aplikace [**Mbit**](https://play.google.com/store/apps/details?id=com.yahboom.mbit&hl=cs&gl=US) z Google Play nebo App Store.
 
-This repository can be added as an **extension** in MakeCode.
+- Pro splnění algoritmické úlohy nesmí vozidlo opustit svým obrysem vytyčenou čáru. 
+- Druhým faktorem hodnocení je čas potřebný na úspěšné zdolání tratě. 
+- Počet nutných korekcí (manuálních zásahů do řízení) také ovlivní výsledek.
+- Čitelnost a dekompozice kódu **je** předmětem hodnocení
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/tomaskazda/pxt-robocar-empty** and import
+## Požadavky na schopnosti vozidla
 
-## Edit this project ![Build status badge](https://github.com/tomaskazda/pxt-robocar-empty/workflows/MakeCode/badge.svg)
+- autonomní jízda po bílé / černé čáře bez nutných zásahů do řízení
+- překonání křižovatek ve tvaru písmene **+**
+- schopnost na "vyžádání" odbočit na křižovatce vlevo nebo vpravo
+- možnost obrátit se do protisměru
 
-To edit this repository in MakeCode.
+### Volitelně (bonusové hodnocení)
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/tomaskazda/pxt-robocar-empty** and click import
+- schopnost najet do křižovatky jiného tvaru než **+**, typicky **Y**
+- čára končící u mechanické překážky = otočení se do protisměru
+- čára končící mechanickou překážkou = pokus o objetí a pokračování v autonomní jízdě
+(překážka nebude nikdy větší jak 20 × 20 × 20 cm)
 
-## Blocks preview
-
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
-
-![A rendered view of the blocks](https://github.com/tomaskazda/pxt-robocar-empty/raw/master/.github/makecode/blocks.png)
+## Omezení v hodnocení práce
+Algoritmicky totožná řešení napříč skupinami budou snižovat procento maximálního hodnocení. A to o 10 % za každý duplicitní výskyt.
+Například pokud u 3 vozidel bude signifikantní část funkcionality totožná, odečítá se 30 % (z maxima) od celkového hodnocení.
 
 #### Metadata (used for search, rendering)
 
